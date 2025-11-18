@@ -10,12 +10,12 @@ Click the image below to watch the  demo :
 
 
 ## 🧩 Prerequisites
-
-  ROS2 Humble Hawksbill**
-  Ignition Fortress 6 & Gazebo
-  Ubuntu 22.04
-  RViz2
-  MoveIt2
+ 
+  - **ROS2 Humble Hawksbill**
+  - **Gazebo Fortress  **
+  - **Ubuntu 22.04**
+  - **RViz2**
+  - **MoveIt2**
 
 ⚙️ Build Instructions
 
@@ -36,7 +36,7 @@ colcon build
 
 Source the workspace:
 ```bash
-bash
+
 source install/setup.bash
 ```
 
@@ -61,6 +61,7 @@ ros2 run pymoveit2 pick_and_place.py
 
 Make sure to source both the ROS2 installation and your workspace before running any commands:
 
-bash
+ ```bash
 source /opt/ros/humble/setup.bash
 source ~/pick_place_ws/install/setup.bash
+```
